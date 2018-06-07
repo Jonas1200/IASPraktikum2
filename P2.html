@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title></title>
+  <meta name="author" content="Jonas Kuschel, Max Pedersen">
+  <title>IAS | Praktikum 2</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="iasp1.css">
   <!--[if lt IE 9]>
@@ -12,47 +13,72 @@
   <![endif]-->
 </head>
 <body>
-<p>Pandoc Kompilieren: cd C:.Semester80501_ias_aufgabe_p2.000 pandoc -f markdown -t html5 -s -c iasp1.css --toc P&quot; -o P2.html</p>
-<ol type="1">
-<li>Einleitung: allgemeine Beschreibung der Aufgabenstellung</li>
-</ol>
+<header>
+<h1 class="title">IAS | Praktikum 2</h1>
+<p class="author">Jonas Kuschel, Max Pedersen</p>
+<p class="date">19.06.2018</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#einleitung-allgemeine-beschreibung-der-aufgabenstellung">1. Einleitung: allgemeine Beschreibung der Aufgabenstellung</a><ul>
+<li><a href="#startseite">1.1 Startseite</a></li>
+<li><a href="#das-menü-auf-der-startseite">1.2 Das Menü auf der Startseite</a></li>
+</ul></li>
+<li><a href="#nutzungsszenario-messeveranstalter">2. Nutzungsszenario &quot;Messeveranstalter&quot;</a><ul>
+<li><a href="#allgemeine-beschreibung">2.1 Allgemeine Beschreibung</a></li>
+<li><a href="#benutzergruppe-messeveranstalter-beschreibung-persona">2.2 Benutzergruppe &quot;Messeveranstalter&quot;: Beschreibung Persona</a></li>
+<li><a href="#interaktionsdesign">2.3 Interaktionsdesign</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="einleitung-allgemeine-beschreibung-der-aufgabenstellung">1. Einleitung: allgemeine Beschreibung der Aufgabenstellung</h1>
 <p>In der Aufgabe soll eine Webanwendung konzeptioniert werden. Die Webanwendung soll die Planung und Durchführung von Messen ermöglichen. Messerveranstalter sollen die Messehalle Aufteilen können und Belegungen für die einzelnen Hallenstandorte festlegen. Diese können dann von Ausstellern gebucht werden können. Außerdem gibt es Messebesucher, die sich Informationen zu der Messe einholen können wie z.B. eine Liste der Aussteller oder den Lageplan der Hallen.</p>
-<p>1.1 Startseite</p>
+<h2 id="startseite">1.1 Startseite</h2>
 <p>Beim Aufrufen der Startseite der Webanwendung sieht man zuerst ein Bild welches mit der nächsten Messe in Verbindung steht. Über das Bild ist der Name der Messe mit dem Zeitraum in der die Messe stattfindet. Des weiteren lässt sich über die Schaltfläche &quot;jetzt anmelden&quot; darunter zu der Messe anmelden. Wenn der Nutzer auf der Startseite weiter nach unten scrollt sieht er zuerst eine kurze Beschreibung der Messe unterhalb des Bildes. Nach der Beschreibung lässt sich ein Newsticker anzeigen der aktuelle Informationen zu dem Event anzeigt. Ganz am Ende der Seite findet der Nutzer Link zum Impressum. Zudem kann er dort zwischen Mobiler- und Desktopansicht wechseln. Des weiteren kann er hier zwischen unterschiedlichen Sprachen wählen in der die Seite angezeigt werden soll. Die Sprachauswahl wird neben dem Titel der Sprache durch Flaggensymbole vereinfacht.</p>
-<p>1.2 Das Menü auf der Startseite</p>
+<h2 id="das-menü-auf-der-startseite">1.2 Das Menü auf der Startseite</h2>
 <p>Die Startseite der Anwednung hat ein Menü, welches in der Desktopansicht dauerhaft sichtbar über den ganzen oberen Rand erstreckt. In der Mobilen Ansicht dagegen muss das Menü aufgeklappt werden um die Menüpunkte sichtbar zu machen. Im eingeklappten Modus ist das Menü nur über &quot;3 Striche&quot; am oberen linken Rand sichtbar. Durch das klicken auf einen Menüpunkt wird in Mobiler Ansicht das Menü ausgeblendet und die neue Seite erscheint. In der Desktopansicht dagegen wird der angewählte Menüpunkt nach der Betätigung farblich markiert um dem Nutzer die Orientierung zu erleichtern.</p>
 <p>Im Menü lassen sich folgende Menüpunkte finden:</p>
 <ul>
 <li>Startseite</li>
 </ul>
+<blockquote>
 <p>Über diesen Menüpunkt gelangt der Nutzer auf die Startseite.</p>
+</blockquote>
 <ul>
 <li>Anfahrt</li>
 </ul>
+<blockquote>
 <p>Hier wird die Anfahrt zu dem Messegelände angezeigt.</p>
+</blockquote>
 <ul>
 <li>Lageplan</li>
 </ul>
+<blockquote>
 <p>Der Lageplan ermlöglicht dem Besucher die Orientierung auf dem Messegelände.</p>
+</blockquote>
 <ul>
 <li>Registrieren</li>
 </ul>
+<blockquote>
 <p>Über diesen Menüpunkt können sich die Aussteller registrieren um einen Stellplatz zu buchen.</p>
+</blockquote>
 <ul>
 <li>Anmelden</li>
 </ul>
+<blockquote>
 <p>Über Anmelden können sich bereits regristrierte Aussteller anmelden und ihre Buchungen bearbeiten. Außerdem können sich hier auch Messeveranstalter anmelden. Diese müssen sich nicht auf der Seite registrieren, da deren Benutzerdaten über den Systemadministrator erstellt wird.</p>
-<ol start="2" type="1">
-<li>Nutzungsszenario &quot;Messeveranstalter&quot;</li>
-</ol>
-<p>2.1 Allgemeine Beschreibung</p>
+</blockquote>
+<h1 id="nutzungsszenario-messeveranstalter">2. Nutzungsszenario &quot;Messeveranstalter&quot;</h1>
+<h2 id="allgemeine-beschreibung">2.1 Allgemeine Beschreibung</h2>
 <p>Im Nutzungscenario der Messeveranstalter soll beschrieben werden wie ein Messeveranstalter durch die Webanwendung navigiert, um eine Messe zu planen und durchzuführen.</p>
-<p>2.2 Benutzergruppe &quot;Messeveranstalter&quot;: Beschreibung Persona 2.3 Interaktionsdesign</p>
+<h2 id="benutzergruppe-messeveranstalter-beschreibung-persona">2.2 Benutzergruppe &quot;Messeveranstalter&quot;: Beschreibung Persona</h2>
+<h2 id="interaktionsdesign">2.3 Interaktionsdesign</h2>
 <p>Die Messeveranstalter gelangen über die Startseite im Menü über den Menüpunkt &quot;anmelden&quot; auf eine entsprechende Anmeldeseite. Auf dieser geben die Messeveranstalter ihre Email Adresse und ihr Passwort ein. Bei erfolgreicher Identifizierung wird der Benutzer auf seine persönliche Startseite weitergeleitet. Hier findet er eine Liste der letzten 10 neuen Buchungen über eine Schaltfläche &quot;mehr anzeigen&quot; wird er zu einer neuen Seite &quot;Buchungsliste&quot; weitergeleitet.</p>
 <ul>
 <li>Seite Buchungsliste</li>
 </ul>
 <p>2.3.1 Übersicht Interaktionen 2.3.2 ... Interaktion 1 ... ... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ... ... Erläuterungen ... ... Erläuterung Daten nach Bedarf ... 2.3.x usf. ... 3. Nutzungsszenario &quot;Aussteller&quot; 3.1 Allgemeine Beschreibung Die Aussteller sollen über die Webanwendung Standplätze in der Halle reservieren können. Sie können eine Übersicht über ihre aktuelle Buchungen sehen. Diese können bis zu beginn der Messe bearbeitet oder auch storniert werden. 3.2 Benutzergruppe &quot;Aussteller&quot;: Beschreibung Persona 3.3 Interaktionsdesign 3.3.1 Übersicht Interaktionen</p>
 <p>3.3.2 ... Interaktion 1 ... ... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ... ... Erläuterungen ... ... Erläuterung Daten nach Bedarf ... 3.3.x usf. ... 4. Nutzungsszenario &quot;Besucher&quot; 4.1 Allgemeine Beschreibung 4.2 Benutzergruppe &quot;Besucher&quot;: Beschreibung Persona 4.3 Interaktionsdesign 4.3.1 Übersicht Interaktionen 4.3.2 ... Interaktion 1 ... ... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ... ... Erläuterungen ... ... Erläuterung Daten nach Bedarf ... 4.3.x usf. ...</p>
+<p>Pandoc Kompilieren: cd C:.Semester2 pandoc -f markdown -t html5 -s -c iasp1.css --toc P2 -o P2.html</p>
 </body>
 </html>

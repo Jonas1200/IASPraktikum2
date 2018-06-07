@@ -1,8 +1,8 @@
-Pandoc Kompilieren:
-cd C:\Users\jks\sciebo\6.Semester\IAS\Praktikum\180501_ias_aufgabe_p2.000
-pandoc -f markdown -t html5 -s -c iasp1.css --toc P" -o P2.html
+% IAS | Praktikum 2
+% Jonas Kuschel, Max Pedersen
+% 19.06.2018
 
-1. Einleitung: allgemeine Beschreibung der Aufgabenstellung 
+# 1. Einleitung: allgemeine Beschreibung der Aufgabenstellung 
 
 In der Aufgabe soll eine Webanwendung konzeptioniert werden. Die Webanwendung soll
 die Planung und Durchführung von Messen ermöglichen. Messerveranstalter sollen die
@@ -11,7 +11,7 @@ festlegen. Diese können dann von Ausstellern gebucht werden können. Außerdem 
 es Messebesucher, die sich Informationen zu der Messe einholen können wie z.B.
 eine Liste der Aussteller oder den Lageplan der Hallen. 
 
-1.1 Startseite
+## 1.1 Startseite
 
 
 Beim Aufrufen der Startseite der Webanwendung sieht man zuerst ein Bild welches mit der nächsten Messe in Verbindung
@@ -23,7 +23,7 @@ Link zum  Impressum. Zudem kann er dort zwischen Mobiler- und Desktopansicht wec
 unterschiedlichen Sprachen wählen in der die Seite angezeigt werden soll. Die Sprachauswahl wird neben dem Titel der 
 Sprache durch Flaggensymbole vereinfacht.  
 
-1.2 Das Menü auf der Startseite
+## 1.2 Das Menü auf der Startseite
 
 Die Startseite der Anwednung hat ein Menü, welches in der Desktopansicht dauerhaft sichtbar über den ganzen oberen
 Rand erstreckt. In der Mobilen Ansicht dagegen muss das Menü aufgeklappt werden um die Menüpunkte sichtbar zu machen. 
@@ -36,39 +36,39 @@ Im Menü lassen sich folgende Menüpunkte finden:
 
 - Startseite
 
-Über diesen Menüpunkt gelangt der Nutzer auf die Startseite.
+> Über diesen Menüpunkt gelangt der Nutzer auf die Startseite.
 
 - Anfahrt
 
-Hier wird die Anfahrt zu dem Messegelände angezeigt.
+> Hier wird die Anfahrt zu dem Messegelände angezeigt.
 
 - Lageplan
 
-Der Lageplan ermlöglicht dem Besucher die Orientierung auf dem Messegelände.
+> Der Lageplan ermlöglicht dem Besucher die Orientierung auf dem Messegelände.
 
 - Registrieren
 
-Über diesen Menüpunkt können sich die Aussteller registrieren um einen Stellplatz zu buchen.
+> Über diesen Menüpunkt können sich die Aussteller registrieren um einen Stellplatz zu buchen.
 
 - Anmelden
 
-Über Anmelden können sich bereits regristrierte Aussteller anmelden und ihre Buchungen bearbeiten. Außerdem können sich
+> Über Anmelden können sich bereits regristrierte Aussteller anmelden und ihre Buchungen bearbeiten. Außerdem können sich
 hier auch Messeveranstalter anmelden. Diese müssen sich nicht auf der Seite registrieren, da deren Benutzerdaten über
 den Systemadministrator erstellt wird. 
 
-2. Nutzungsszenario "Messeveranstalter"
+# 2. Nutzungsszenario "Messeveranstalter"
 
 
 
-2.1 Allgemeine Beschreibung 
+## 2.1 Allgemeine Beschreibung 
 
 Im Nutzungscenario der Messeveranstalter soll beschrieben werden wie ein Messeveranstalter
 durch die Webanwendung navigiert, um eine Messe zu planen und durchzuführen.
 
 
 
-2.2 Benutzergruppe "Messeveranstalter": Beschreibung Persona
-2.3 Interaktionsdesign
+## 2.2 Benutzergruppe "Messeveranstalter": Beschreibung Persona
+## 2.3 Interaktionsdesign
 
 Die Messeveranstalter gelangen über die Startseite im Menü über den Menüpunkt "anmelden" auf eine entsprechende Anmeldeseite.
 Auf dieser geben die Messeveranstalter ihre Email Adresse und ihr Passwort ein. Bei erfolgreicher Identifizierung
@@ -113,3 +113,6 @@ werden.
 4.3.x usf.
 ...
 
+Pandoc Kompilieren:
+cd C:\Users\jks\sciebo\6.Semester\IAS\Praktikum\IASP2
+pandoc -f markdown -t html5 -s -c iasp1.css --toc P2 -o P2.html
