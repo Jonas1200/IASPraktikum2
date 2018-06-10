@@ -54,6 +54,10 @@ Im Menü lassen sich folgende Menüpunkte finden:
 
 > Der Lageplan ermöglicht dem Besucher die Orientierung auf dem Messegelände.
 
+- Kontakt
+
+> Über diesen Menüpunkt können Kontaktdaten angezeigt werden.
+
 - Registrieren
 
 > Über diesen Menüpunkt können sich die Aussteller registrieren um einen Stellplatz zu buchen.
@@ -168,15 +172,42 @@ werden.
 		Nutzerfreundlichen Anwedungen klar.
 		- beherrscht den Umgang mit dem Computer rudimentär
 		
-3.3 Interaktionsdesign
-3.3.1 Übersicht Interaktionen
+## 3.3 Interaktionsdesign
 
-3.3.2 ... Interaktion 1 ...
-... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ...
-... Erläuterungen ...
-... Erläuterung Daten nach Bedarf ...
-3.3.x usf.
-...
+Peter möchte sich einen Messestand buchen. Er nutzt einen Laptop, um die Webanwendung aufzurufen. 
+
+
+### 3.3.1 Übersicht Interaktionen
+
+Er möchte dabei in seinem Budget bleiben und möglichst nah an einer Sanitären Einrichtung mit seinem Stand stehen. Denn er läuft nicht gerne
+weit um auf die Toilette zu gehen. 
+
+### 3.3.2 Registrieren auf der Webseite
+
+Um sich zu registrieren ruft Peter die Startseite auf und klickt oben rechts in der Ecke auf die Schaltfläche "Registrieren". Er gelangt damit
+auf die Folgende Seite:
+
+![Registrieren](./Registrieren Mobil.PNG)
+
+Auf der Seite muss er alle Input Felder ausfüllen und die Datenschutzbestimmungen akzeptieren, um die Registrierung erfolgreich abzuschließen.
+Nachdem Peter alles ausgefüllt hat und auf Registrieren geklickt hat gelangt er auf einen Lageplan für Aussteller. Hier bucht er eine Stand
+und kann diesen auch wieder stornieren.
+
+![Buchen eines Messestandes](./Aussteller Buchen.PNG)
+
+Nachdem er die Buchen Schaltfläche betätigt hat kann der den jeweiligen Stand wieder stornieren. Ausgegraute stände sind bereits belegt und
+können von Peter nicht gebucht werden. 
+
+Nachdem gebucht wurde, verändert sich die Ansicht wie im Folgenden:
+
+![Stornieren eines Messestandes](./Aussteller Stornieren.PNG)
+
+### 3.3.2 Ausloggen von der Anwendung
+
+Damit sich Peter von der Anwendung abmelden kann muss er oben rechts auf der Seite auf Ausloggen klicken. Er gelangt anschließend auf die Startseite.
+
+
+
 # 4. Nutzungsszenario "Besucher"
 
 ## 4.1 Allgemeine Beschreibung
@@ -212,11 +243,25 @@ bekommen.
 
 ### 4.3.1 Übersicht Interaktionen
 
-Kevin befindet sich zurzeit mit seinem Iphone auf der Messe. Er möchte eine Pommes Rot-Weiß kaufen und sucht nach dem richtigen Imbisstand.
+Kevin befindet sich zurzeit mit seinem Iphone auf der Messe. Er möchte eine Pommes Rot-Weiß kaufen und sucht nach dem richtigen Imbissstand.
 Dafür geht er auf die Webseite und schaut sich den Lageplan an. 
 
 ### 4.3.2 Nutzung des Lageplans
 
+Um auf den Lageplan zu navigieren muss Kevin zuerst die Startseite aufrufen. Das Menü ist in der Mobilen Ansicht zu Beginn immer eingeklappt. 
+Er klappt das Menü über die drei Striche auf und tippt auf den Menüpunkt "Lageplan". Der Browser öffnet den Lageplan.
+
+Der Lageplan ist eine Interaktive Karte. Über den Iphone Bildschirm kann sich Kevin mit dem Finger über die Karte bewegen. Über eine Fingergeste
+kann er mit 2 Fingern den Zoom der Karte einstellen. Wenn er mehr Informationen zu den einzelnen Ständen haben möchte kann er diese antippen.
+Dann werden über ein kleines Popup Fenster Informationen zum Messestand angezeigt. Das Popup kann wieder geschlossen werden, um die 
+Karte vollumfänglich einsehen zu können. Bei Imbisständen kann direkt auch eine Speisekarte mit eingesehen werden.
+
+![Interaktion mit dem Lageplan](./Besucher.PNG)
+
+### 4.3.3 Nutzung der News
+
+Auf der Startseite könnte sich Kevin aktuelle Neuigkeiten zu der Messe anzeigen lassen. Dafür muss kann er durch den Newsticker durch tippen links
+oder rechts durch die Nachrichten scrollen. Über das Tippen auf eine News wird eine Newsseite angezeigt mit dem einem vollständigen Text.
 
 
 # 5. Quellen
