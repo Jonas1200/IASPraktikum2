@@ -1,4 +1,4 @@
-% IAS | Praktikum 2
+﻿% IAS | Praktikum 2
 % Jonas Kuschel, Max Pedersen
 % 19.06.2018
 
@@ -116,25 +116,57 @@ Jürgen Benutzt seinen Desktop Computer, um die Anwendung zu bedienen. Er benöt
 Die Messeveranstalter gelangen über die Startseite im Menü über den Menüpunkt "anmelden" auf eine entsprechende Anmeldeseite.
 Auf dieser geben die Messeveranstalter ihre Email Adresse und ihr Passwort ein. Bei erfolgreicher Identifizierung
 wird der Benutzer auf sein persönliches Dashboard weitergeleitet. 
+Das Dashboard dient als zentraler Punkt der Interaktion. 
+Hier kann Jürgen seine Anfragen lesen und bearbeiten, die Beschreibung der Messe ändern, die Location festlegen und auf die Messeplannung gelangen.
 
-
-Hier findet er eine Liste der letzten 10 neuen Buchungen
-über eine Schaltfläche "mehr anzeigen" wird er zu einer neuen Seite "Buchungsliste" weitergeleitet.
-
-
-
-
-- Seite Buchungsliste
 
 ### 2.3.1 Übersicht Interaktionen
-### 2.3.2 Öffnen der Startseite
 
-Auf der Startseite der Webanwendung findet Jürgen die neusten Informationen zu der Messe. Ein Bild der Startseite ist 1.2 Zu finden. 
+Jürgen kann in der Webanwendung die Beschreibung der Messe und die Adresse verändern. 
+Zusätzlich kann er durch den Knopf an der rechten Seite zu der Messeplannung gelangen, wo er das Messegelände digital gestalten kann.
+Der untere Teil des Dashboards ist den Anfragen gewidmet. Dort kann Jürgen Anfragen von verschiedenen Austellern bearbeiten.
 
-### 2.3.3 
-### 2.3.4
-### 2.3.5
-### 2.3.6
+### 2.3.2 Bearbeiten der Beschreibung
+
+Oben links auf dem Dashboard befindet sich ein Textfeld um die öffentliche Beschreibung der Messe zu gestalten. 
+Hier kann Jürgen bis 1000 Charaktere einfügen um seine Messe für Besucher attraktiv zu gestalten.
+Um die Beschreibung zu speichern kann Jürgen nach der Bearbeitung auf den "Speichern" Knopf tippen.
+
+![Jürgen's Dashboard](./Messeveranstalter Dashboard.PNG)
+
+### 2.3.3 Bearbeiten der Adresse
+
+Unter der Beschreibung befinden sich eine Reihe von Textfeldern, in die Jürgen die Adresse der Messe eintragen kann. 
+Die Adresse befindet sich dann nach der Eintragung in dem Menüpunkt "Anfahrt", wo der Besucher sie finden kann.
+Nachdem er sie bearbeitet hat, kann Jürgen sie mit dem "Speichern" Knopf speichern.
+
+### 2.3.4 Gestaltung des Messeplans
+
+Wenn Jürgen auf den Knopf "Messeplannung" rechts auf dem Dashboard tippt, gelangt er in die Plannungsoberfläche der Messe.
+Hier kann Jürgen erstmal die Grundfläche der Gebäude mit genauen Größenangaben gestalten. Dies gilt in der Oberfläche als ersten Schritt. 
+Diese Menü besteht aus zwei Flächen: eine Übersicht der bestehenden Gebäuden, in der Jürgen zoomen und sich mit dem Mauszeiger umher bewegen kann und eine Fläche für die Optionen.
+Um eine neues Gebäude zu erzeugen, zieht Jürgen aus den "Optionen" die "Gebäude Zone" rüber auf die Übersicht der bestehenden Gebäuden. 
+Hier kann er die Fläche die Fläche nach belieben verschieben und die Größe verändern. Wenn Jürgen mit den Gebäuden zufrieden ist, kann er auf den Knopf "Nächster Schritt" tippen.
+
+![Der erste Schritt in der Bearbeitung des Messeplans](./Messeveranstalter Step 1.PNG)
+
+Der zweite Schritt ist der Benutzeroberfläche identisch gestaltet. 
+Hier kann Jürgen jedoch die Grundrisse nicht mehr bearbeiten, und stattdessen Flächen für Ausstellungen, Essen und Erfrischungen, Informationsstände und Sanitäranlagen festlegen.
+
+![Im zweiten Schritt kann Jürgen Flächen festlegen.](./Messeveranstalter Unfertig Step 2.PNG)
+
+![So sieht Jürgen's fertiger Plan aus!](./Messeveranstalter Fertig Step 2.PNG)
+
+Nachdem Jürgen seine Flächen festgelegt hat, will er natürlich die einzelnen Preise festlegen und die besonderen Merkmale der einzelnen Flächen beschreiben.
+Dies wird ihm durch einen einfachen Click auf eine Fläche ermöglicht. Ein kleine Oberfläche erscheint dann über dem Plan, wo er alle Daten eintragen kann.
+
+![Hier hat Jürgen seinen gewünschten Preis und die besonderen Merkmale eingetragen.](./Messeveranstalter Bearbeiten Step 2.PNG)
+
+### 2.3.5 Abarbeitung der Anfragen
+
+Im unteren Bereich des Dashboard befindet sich eine Übersicht der Anfragen. 
+Hier erscheint eine Nachricht so bald ein Aussteller eine Fläche bucht. 
+Wenn Jürgen auf eine Nachricht reagieren will, tippt er darauf und gelangt somit auf eine neue Oberfläche. Hier kann er die Nachricht ausfühlrich lesen und entweder ablehnen oder annehmen.
 
 
 3. Nutzungsszenario "Aussteller"
