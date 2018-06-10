@@ -23,9 +23,17 @@ Link zum  Impressum. Zudem kann er dort zwischen Mobiler- und Desktopansicht wec
 unterschiedlichen Sprachen wählen in der die Seite angezeigt werden soll. Die Sprachauswahl wird neben dem Titel der 
 Sprache durch Flaggensymbole vereinfacht.  
 
-## 1.2 Das Menü auf der Startseite
+Die Startseite ist für die Desktopansicht und die Mobileansicht optimiert:
 
-Die Startseite der Anwednung hat ein Menü, welches in der Desktopansicht dauerhaft sichtbar über den ganzen oberen
+![Startseite Desktop](./Startseite.PNG)
+
+![Startseite Mobil](./Startseite_Mobil.PNG)
+
+
+
+## 1.2 Das Navigationsmenü
+
+Die Startseite der Anwendung hat ein Menü, welches in der Desktopansicht dauerhaft sichtbar über den ganzen oberen
 Rand erstreckt. In der Mobilen Ansicht dagegen muss das Menü aufgeklappt werden um die Menüpunkte sichtbar zu machen. 
 Im eingeklappten Modus ist das Menü nur über "3 Striche" am oberen linken Rand sichtbar. Durch das klicken auf 
 einen Menüpunkt wird in Mobiler Ansicht das Menü ausgeblendet und die neue Seite erscheint. In der Desktopansicht 
@@ -36,14 +44,7 @@ Im Menü lassen sich folgende Menüpunkte finden:
 
 - Startseite
 
-> Über diesen Menüpunkt gelangt der Nutzer auf die Startseite.
-
-
-![Startseite Desktop](./Startseite.PNG)
-
-![Startseite Mobil](./Startseite_Mobil.PNG)
-
-![Startseite Mobil geöffnetes Menü](./Startseite_Mobil_Menü.PNG)
+> Über den Schriftzug der Webseite gelangt man auf die Startseite der Webanwendung.
 
 - Anfahrt
 
@@ -51,7 +52,7 @@ Im Menü lassen sich folgende Menüpunkte finden:
 
 - Lageplan
 
-> Der Lageplan ermlöglicht dem Besucher die Orientierung auf dem Messegelände.
+> Der Lageplan ermöglicht dem Besucher die Orientierung auf dem Messegelände.
 
 - Registrieren
 
@@ -59,9 +60,16 @@ Im Menü lassen sich folgende Menüpunkte finden:
 
 - Anmelden
 
-> Über Anmelden können sich bereits regristrierte Aussteller anmelden und ihre Buchungen bearbeiten. Außerdem können sich
+> Über Anmelden können sich bereits registrierte Aussteller anmelden und ihre Buchungen bearbeiten. Außerdem können sich
 hier auch Messeveranstalter anmelden. Diese müssen sich nicht auf der Seite registrieren, da deren Benutzerdaten über
 den Systemadministrator erstellt wird. 
+
+Damit das Menü auch in der Mobilen Ansicht genutzt werden kann und nicht alles verdeckt, wird diese standardmäßig eingeklappt. Wenn der User
+in der Oberen rechten Ecke auf die drei Striche drückt wird das Menü wie im folgenden Bild eingeblendet. Es kann danach über das
+x wieder ausgeblendet werden. 
+
+![Startseite Mobil geöffnetes Menü](./Startseite_Mobil_Menü.PNG)
+
 
 # 2. Nutzungsszenario "Messeveranstalter"
 
@@ -101,22 +109,34 @@ durch die Webanwendung navigiert, um eine Messe zu planen und durchzuführen.
 
 ## 2.3 Interaktionsdesign
 
+Jürgen möchte Änderungen an dem Messeplan vornehmen und geht dafür zuerst auf die Startseite der Anwendung. 
+Jürgen Benutzt seinen Desktop Computer, um die Anwendung zu bedienen. Er benötigt also keine mobile Ansicht. 
+
+
 Die Messeveranstalter gelangen über die Startseite im Menü über den Menüpunkt "anmelden" auf eine entsprechende Anmeldeseite.
 Auf dieser geben die Messeveranstalter ihre Email Adresse und ihr Passwort ein. Bei erfolgreicher Identifizierung
-wird der Benutzer auf sein persönliches Dashboard weitergeleitet. Hier findet er eine Liste der letzten 10 neuen Buchungen
+wird der Benutzer auf sein persönliches Dashboard weitergeleitet. 
+
+
+Hier findet er eine Liste der letzten 10 neuen Buchungen
 über eine Schaltfläche "mehr anzeigen" wird er zu einer neuen Seite "Buchungsliste" weitergeleitet.
+
 
 
 
 - Seite Buchungsliste
 
-2.3.1 Übersicht Interaktionen
-2.3.2 ... Interaktion 1 ...
-... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ...
-... Erläuterungen ...
-... Erläuterung Daten nach Bedarf ...
-2.3.x usf.
-...
+### 2.3.1 Übersicht Interaktionen
+### 2.3.2 Öffnen der Startseite
+
+Auf der Startseite der Webanwendung findet Jürgen die neusten Informationen zu der Messe. Ein Bild der Startseite ist 1.2 Zu finden. 
+
+### 2.3.3 
+### 2.3.4
+### 2.3.5
+### 2.3.6
+
+
 3. Nutzungsszenario "Aussteller"
 3.1 Allgemeine Beschreibung
 Die Aussteller sollen über die Webanwendung Standplätze in der Halle reservieren können. Sie können
@@ -134,7 +154,7 @@ werden.
 
 		- Grundschule / Gymnasium
 		- Studium Maschinenbau (RWTH Aachen)
-		- Hat in Haward promoviert
+		- Hat in MIT promoviert
 		
 ### 3.2.3 Berufserfahrung
 
@@ -157,9 +177,14 @@ werden.
 ... Erläuterung Daten nach Bedarf ...
 3.3.x usf.
 ...
-4. Nutzungsszenario "Besucher"
-4.1 Allgemeine Beschreibung
-4.2 Benutzergruppe "Besucher": Beschreibung Persona
+# 4. Nutzungsszenario "Besucher"
+
+## 4.1 Allgemeine Beschreibung
+
+Die Besucher möchten sich die Informationen zur Anfahrt anzeigen lassen, Informationen zu Ständen einholen, die neusten Nachrichten zur Messe
+bekommen.
+
+## 4.2 Benutzergruppe "Besucher": Beschreibung Persona
 
 ### 4.2.1 Persönliche Eigenschaften
 	
@@ -183,14 +208,16 @@ werden.
 	- Kevin hat einen Level 90 Hexenmeister
 	- beherrscht den Umgang mit dem Computer, kein 10 Fingerschreiben
 		
-4.3 Interaktionsdesign
-4.3.1 Übersicht Interaktionen
-4.3.2 ... Interaktion 1 ...
-... Zustandsdiagramm(e) und Wireframe(s) nach Bedarf ...
-... Erläuterungen ...
-... Erläuterung Daten nach Bedarf ...
-4.3.x usf.
-...
+## 4.3 Interaktionsdesign
+
+### 4.3.1 Übersicht Interaktionen
+
+Kevin befindet sich zurzeit mit seinem Iphone auf der Messe. Er möchte eine Pommes Rot-Weiß kaufen und sucht nach dem richtigen Imbisstand.
+Dafür geht er auf die Webseite und schaut sich den Lageplan an. 
+
+### 4.3.2 Nutzung des Lageplans
+
+
 
 # 5. Quellen
 
