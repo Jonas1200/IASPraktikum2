@@ -133,7 +133,7 @@ Der untere Teil des Dashboards ist den Anfragen gewidmet. Dort kann Jürgen Anfr
 ### 2.3.2 Bearbeiten der Beschreibung
 
 Oben links auf dem Dashboard befindet sich ein Textfeld um die öffentliche Beschreibung der Messe zu gestalten. 
-Hier kann Jürgen bis 1000 Charaktere einfügen um seine Messe für Besucher attraktiv zu gestalten.
+Hier kann Jürgen bis 1000 Zeichen einfügen um seine Messe für Besucher attraktiv zu gestalten.
 Um die Beschreibung zu speichern kann Jürgen nach der Bearbeitung auf den "Speichern" Knopf tippen.
 
 ![Jürgen's Dashboard](./Messeveranstalter Dashboard.PNG)
